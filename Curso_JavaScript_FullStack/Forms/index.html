@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Forms e Inputs</title>
+</head>
+<body>
+    <h3>Encontre no Google</h3>
+   <fieldset>
+       <form action="https://www.google.com/search">
+        <label for="pesquisa">O que deseja pesquisar? 
+            <input type="text" id="pesquisa" name="q" placeholder="Insira a pesquisa" required>
+        </label>
+        <input type="submit" value="Pesquisar">
+       </form>
+   </fieldset>
+   <br>
+   <label for="Login">Login</label>
+   <input type="password" placeholder="Digite seu login" >
+   <input type="submit">
+   <br><br>
+   <input type="radio" name="linguagem" value="HTML" checked>HTML
+   <input type="radio" name="linguagem" value="CSS" checked>CSS
+   <input type="radio" name="linguagem" value="JAVASCRIPT" checked>JAVASCRIPT
+   <br>
+   <br>
+   <input type="color" name="cor" id="typecolor">
+   <br><br>
+   <input type="date" name="typedata" id="tipodata">
+   <br><br>
+   <input type="file">
+   <br><br>
+   <label for="Name">Nome:</label>
+   <input type="textName" autocomplete="on" placeholder="Digite seu nome"><br><br>
+   <label for="Name">Sobrenome:</label>
+   <input type="textSobrenome" autocomplete="on" placeholder="Digite seu sobrenome"><br><br>
+   <label for="lblEmail">Email:</label>
+   <input type="email" name="txtEmail" id="Email" placeholder="Digite seu email" autocomplete="off">
+
+</body>
+</html>

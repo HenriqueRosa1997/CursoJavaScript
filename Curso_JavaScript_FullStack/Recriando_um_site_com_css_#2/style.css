@@ -1,0 +1,15 @@
+.container{
+    background-color: #fffafa;
+    width: 50%;
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+}
+
+.data{
+    text-transform: uppercase;
+    color: #008080;
+}
+p{
+    font-size: 20px;
+   
+}
